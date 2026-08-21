@@ -125,7 +125,7 @@ function handleAuth(event) {
             return;
         }
 
-        const studentID = `BFMS-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+        const studentID = `TECA-2026-${Math.floor(1000 + Math.random() * 9000)}`;
         const newUser = {
             id: studentID,
             name: name,
